@@ -268,7 +268,7 @@ btn1.onclick = () => {
 
   function startGame(playerName, difficulty) {
     h3.innerHTML = "";
-    GameText.textContent = "TIK TAC TOE";
+    GameText.textContent = "TIC TAC TOE";
     GameText1.textContent = `${playerName} VS AI and mode:${difficulty}`;
     board();
     box.forEach((boxes) => {
@@ -311,7 +311,7 @@ btn2.onclick = () => {
 
   function startGameMulti(playerNameOne, playerNameTwo) {
     h3.innerHTML = "";
-    GameText.textContent = "TIK TAC TOE";
+    GameText.textContent = "TIC TAC TOE";
     GameText1.textContent = `${playerNameOne}(O) VS ${playerNameTwo}(X)`;
     board();
 
