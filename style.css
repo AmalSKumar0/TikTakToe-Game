@@ -94,6 +94,9 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 21px;
+    left: -10px;
 }
 
 .box1{
@@ -116,7 +119,7 @@ h3{
     padding: 0px 19px;
     box-shadow: 0 0 5px rgba(0,0,0,0.25);
     position: absolute;
-    top: 540px;
+    top: 390px;
 }
 #reset1:hover{
 background-color: rgb(219, 213, 181);
@@ -127,10 +130,10 @@ background-color: rgb(219, 213, 181);
 .Matriximg{
     position: absolute;
     background: transparent;
-    top: 41.5%;
-    left: 50.47%;
+    top: 333.5px;
+    left: 50%;
     transform: translate(-50%, -50%);
-    height: 50%;
+    height: 400px;
     z-index: -1;
 }
 
